@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <aside id="sidebar">
+      <div class="btn-container">
+        <button class="btn-close" onclick="toggleSidebar()">
+          X
+        </button>
+      </div>
+    </aside>
+    <header>
+      <div class="toggleBtn" onclick="toggleSidebar()">
+        <span class="lines"></span>
+        <span class="lines"></span>
+        <span class="lines"></span>
+      </div>
+    </header>
+    <main>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </main>
+    <footer></footer>
+
+    <script>
+      var element = document.getElementById('sidebar');
+      function toggleSidebar() {
+        element.classList.toggle('sidebar-active');
+      }
+    </script>
+  </body>
+</html>
